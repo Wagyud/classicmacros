@@ -1,0 +1,11 @@
+//Picks the right Travel Form for your location and shows the tooltip of what form is eligible
+//First priority is Flight form
+//Second Prio is Aquatic
+//Third Prio is Travel
+//If no forms possible (indoors), will show the default icon and no tooltip as a clear indicator
+
+#showtooltip
+/stopcasting
+/stopattack
+/dismount
+/cast [flyable, nocombat]Flight Form;[swimming]Aquatic Form;[outdoors]Travel Form
