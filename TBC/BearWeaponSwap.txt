@@ -1,18 +1,9 @@
 // This Macro should swap to a defensive weapon when entering bear form, and a regular weapon when exiting bear form
-// It is currently done in two macros bound to the 'Z' key, one for every hotbar but bear and one for bear.
-// Working on a version that can do it all in one macro (In bear, equip B/C and cancel form, out of bear, equip A and enter bear form)
+//Enter/Exit Bear Macro (hotkeyed to 'Z' in all forms)
 
-
-//Enter Bear Macro (hotkeyed to 'Z' in all forms BUT bear)
 
 #showtooltip Dire Bear Form
-/equip Firemaul of Destruction
-/cast [form:0/2/3/4/5] Dire Bear Form
-
-
-//Exit Bear Macro (hotkeyed to 'Z' in bear form)
-
-#showtooltip Dire Bear Form
-/equip Mace of Unending Life
-/equip Lei of the Lifegiver
-/cancelform
+/equip [form:0/2/3/4/5] Firemaul of Destruction
+/equip [form:1] Mace of Unending Life
+/equip [form:1] Lei of the Lifegiver
+/cast Dire Bear Form
