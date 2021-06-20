@@ -1,0 +1,1 @@
+// This Macro should swap to a defensive weapon when entering bear form, and a regular weapon when exiting bear form
