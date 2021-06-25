@@ -1,6 +1,8 @@
 // This Macro should swap to a defensive weapon when entering bear form, and a regular weapon when exiting bear form
 //Enter/Exit Bear Macro (hotkeyed to 'Z' in all forms)
 
+//Known Issue: Cannot swap weapons and form within a GCD while in-combat right now. Recommend just switching to bear form with 'Z' and switching weapons seperately.
+
 
 #showtooltip Dire Bear Form
 /equip [form:0/2/3/4/5] Firemaul of Destruction
