@@ -1,6 +1,8 @@
 //Swaps to an innervate weapon, innervates self, then swaps back to primary weapon and OH
 //Prevents accidental innervates on other friendly characters instead of self
 
+//Known Issue: Cannot swap weapons and cast within a GCD while in-combat right now. Recommend just using a shorter macro to target self.
+
 #showtooltip Innervate 
 /equip Bata Staff of Spirit
 /cast [@player] Innervate
