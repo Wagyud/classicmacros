@@ -1,0 +1,9 @@
+// Show LUA Errors (Useful for finding source of macro or addon issues)
+
+/console scriptErrors 1
+
+
+
+// Hide LUA Errors
+
+/console scriptErrors 0
